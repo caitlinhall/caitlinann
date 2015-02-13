@@ -13,10 +13,9 @@ $(document).ready(function(){
 
 	$( ".headerText" ).hover(
 	  function() {
-	    $( this ).addClass( "animated pulse" );
+	    $( this ).addClass( "animated flip" );
 	  }, function() {
-	    $( this ).removeClass( "animated pulse" );
+	    $( this ).removeClass( "animated flip" );
 	  }
 	);
-
 });

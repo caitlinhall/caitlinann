@@ -168,10 +168,19 @@ textarea {
     font-size: 1.2em;
 }
 
-#socialIcons{
+.socialIcons{
     width:30px;
     height:30px;
     padding:5px 5px 50px 5px;
+    opacity: 0.5;
+}
+
+.fade {
+    opacity: 0.5;
+}
+
+.fade:hover {
+    opacity: 1;
 }
 
 #pull-right{
@@ -280,6 +289,13 @@ textarea {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.grow:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 /* responsive */
 
 @media (max-width: 480px) {
@@ -365,17 +381,6 @@ textarea {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

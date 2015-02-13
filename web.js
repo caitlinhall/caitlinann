@@ -23,7 +23,6 @@ app.get('/instagram', function (req, res, next) {
     if (err) {
       next(err);
     } else {
-      console.log(medias);
       var i;
       var arrayLength = medias.length;
       var instagramImagesArray = [];
