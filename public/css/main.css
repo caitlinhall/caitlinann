@@ -121,7 +121,7 @@ textarea {
     padding-top: 40px;
 }
 
-#headerText{
+.headerText{
     padding-top: 40px;
     padding:30px;
     text-decoration: none;
@@ -283,7 +283,7 @@ textarea {
 /* responsive */
 
 @media (max-width: 480px) {
-    #headerText{
+    .headerText{
         font-size:12px;
         padding:5px;
     }
