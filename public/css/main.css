@@ -188,7 +188,7 @@ textarea {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    border-bottom:2px solid #33CCCC;
+    border-bottom:3px solid #33CCCC;
 }
 
 #me{
@@ -348,6 +348,40 @@ textarea {
     margin-right: auto;
     margin-left: auto;
     display: inherit;
+    margin-bottom: 50px;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projectImages{
+    height: 300px;
+    width:300px;
+    padding-bottom: 20px;
+}
+
+.project{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 50px;
+    padding-bottom: 50px
+}
+
+.projectText{
+    text-align: left;
+}
+
+.project h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.chat-section{
+    overflow: hidden;
+    background: url("../images/circles.png") -0px -0px no-repeat;
+    background-color: #9fbfc0;
+    background-repeat: repeat;
 }
 
 .clearfix:after {
