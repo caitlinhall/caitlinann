@@ -194,14 +194,38 @@ textarea {
 #me{
     width:300px;
     height:300px;
-    float:left;
     padding-right: 20px;
+    display: inline-block;
+}
+
+.intro-text{
+    display: inline-block;
+    text-align: left;
+}
+
+.yellow-text{
+    color:#00CC99;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.intro-text h1{
+    font-family: "felt-tip-roman",sans-serif;
+    color:#454545;
+}
+
+.middle{
+    background-color:#ed145b;
+    color:white;
+    font-family: "felt-tip-roman",sans-serif;
+    display: inline-block;
 }
 
 #whoAmIText{
     padding:40px;
-    float:right;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .socialIcons{
@@ -375,6 +399,7 @@ textarea {
 .project h2{
     margin-top: 0px;
     margin-bottom: 10px;
+    color:#FF9999;
 }
 
 .chat-section{
