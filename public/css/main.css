@@ -427,6 +427,11 @@ textarea {
         padding-top: 15px;
         font-size: 1.1em;
     }
+
+    .project{
+        padding: 0px 10px;
+        padding-bottom: 30px
+    }
 }
 
 /* responsive */
