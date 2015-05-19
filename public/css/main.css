@@ -328,7 +328,6 @@ textarea {
 
 .chatText{
     display:inline-block;
-    margin-bottom: 100px;
 }
 
 *{
@@ -370,6 +369,7 @@ textarea {
 
 .projectText{
     text-align: left;
+    width: 300px;
 }
 
 .project h2{
